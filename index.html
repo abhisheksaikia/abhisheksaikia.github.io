@@ -146,7 +146,7 @@ map.on('click', function (e) {
    
    
     map.featuresAt(e.point, {
-        radius: 10,
+        radius: 8,
         layer: ['markersInner', 'markersOuter'],
         includeGeometry: true},  function (err, features) {
             console.log(features.length);
